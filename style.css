@@ -1,0 +1,22 @@
+.div1
+{
+    border: 2px solid black;
+    width: 250px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.index11{
+    display: none;
+}
+#alignform
+{
+    margin: auto;
+    width: 300px;
+}
+ 
+#imagediv
+{
+    margin: auto;
+    width: 600px;
+}

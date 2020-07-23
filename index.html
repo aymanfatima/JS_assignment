@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Complete assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body
+        {
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ------------------CHAPTER : 43 - 48 -------------------- -->
+    <!-- ------------------EVENTS-------------------------- -->
+    <!-- //TASK 01 and TASK 02 -->
+    <div>
+        <p> Mobile phone </p>
+    </div>
+    <div class=div1>
+        <img src="phone1.jpg" onclick="alert('Mobile phone 1')">
+        <a href="#" onclick="alert('Mobile phone 1')">Mobile phone 1</a>
+    </div>
+    <div class=div1>
+        <img src="phone2.jpg" onclick="alert('Mobile phone 2')">
+        <a href="#" onclick="alert('Mobile phone 2')">Mobile phone 2</a>
+
+    </div>
+    <div class=div1>
+        <img src="phone3.jpg" onclick="alert('Mobile phone 3')">
+        <a href="#" onclick="alert('Mobile phone 3')">Mobile phone 3</a>
+
+    </div>
+    <div class=div1>
+        <img src="phone4.jpg" onclick="alert('Mobile phone 4')">
+        <a href="#" onclick="alert('Mobile phone 4')">Mobile phone 4</a>
+    </div>
+
+    <!-- ------------------CHAPTER : 43 - 48 -------------------- -->
+    <!-- ------------------EVENTS-------------------------- -->
+    <!-- //TASK 03-->
+    <hr />
+    <br />
+    <br />
+    <table>
+        <tr>
+            <th>index</th>
+            <th>Name</th>
+            <th>class</th>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td id="index01">0</td>
+            <td id="index02">jhone</td>
+            <td id="index03">10</td>
+            <td id="index04"><button type="button" onclick="deletefunction0()">Delete</button></td>
+        </tr>
+
+        <tr>
+            <td id="index11">1</td>
+            <td id="index12">Doe</td>
+            <td id="index13">9</td>
+            <td id="index14"><button type="button" onclick="deletefunction1()">Delete</button></td>
+        </tr>
+        <tr>
+            <td id="index21">2</td>
+            <td id="index22">Mark</td>
+            <td id="index23">10</td>
+            <td id="index24"><button type="button" onclick="deletefunction2()">Delete</button></td>
+        </tr>
+        <tr>
+            <td id="index31">3</td>
+            <td id="index32">james</td>
+            <td id="index33">10</td>
+            <td id="index34"><button type="button" onclick="deletefunction3()">Delete</button></td>
+        </tr>
+    </table>
+
+    <!-- ------------------CHAPTER : 43 - 48 -------------------- -->
+    <!-- ------------------EVENTS-------------------------- -->
+    <!-- //TASK 04-->
+    <hr />
+    <br />
+    <br />
+    <div id="imagediv">
+        <img src="phonemobile1.jpg" onmouseout="image()" height="200" width="200">
+        <img src="phonemobile1.jpg" onmouseover="image2()" height="200" width="200"></div>
+
+
+
+    <!-- ------------------CHAPTER : 43 - 48 -------------------- -->
+    <!-- ------------------EVENTS-------------------------- -->
+    <!-- //TASK 05-->
+    <hr />
+    <br />
+    <br />
+    <button type="button" onClick="onClick()">Clicks for increament</button>
+    <p>Clicks for increament: <a id="clicks">0</a></p>
+
+    <button type="button" onClick="onClicknegative()">Clicks for decreament</button>
+    <p>Clicks for decreament: <a id="clicksnegative">0</a></p>
+
+
+
+    <!-- ------------------CHAPTER : 49 - 52 -------------------- -->
+    <!-- ------------------EVENTS-------------------------- -->
+    <!-- TASK 01-->
+    <hr />
+    <br />
+    <br />
+    <div id="alignform">
+        <form>
+            NAME:<input type="text" id="NAME">
+            ADDRESS:<input type="text" id="ADDRESS">
+            CONTACT:<input type="text" id="CONTACTNUMBER">
+            COURSE: <input type="text" id="COURSE">
+            <button onClick="buttonform()">SUBMIT FORM</button>
+        </form>
+    </div>
+
+
+    <!-- ------------------CHAPTER : 49 - 52 -------------------- -->
+    <!-- ------------------EVENTS-------------------------- -->
+    <!-- TASK 02-->
+    <hr />
+    <br />
+    <br />
+    <P id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus architecto ipsam, quaerat quis
+        voluptatum vel laudantium molestiae iste provident, aperiam nam in! Ab, dolore delectus dolorum maiores quisquam
+        ea vel?</P>
+    <button onclick="readmore()">Read More!</button>
+
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
